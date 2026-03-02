@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <string>
 using namespace std;
 
 //Constant declarations
@@ -27,8 +28,8 @@ class Movie
 };
 
 //Function prototypes
-bool openFiles(ifstream &inFile);
-void loadMovies(vector<Movie> &movie);
+bool openFile(ifstream &inFile);
+void loadMovies(vector<Movie> &movies);
 
 int main()
 {
